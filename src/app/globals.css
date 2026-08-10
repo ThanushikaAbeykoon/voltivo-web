@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #edeff0;
+  --foreground: #191b1c;
+
+  --color-ink: #191b1c;
+  --color-surface: #ffffff;
+  --color-surface-2: #edeff0;
+  --color-surface-3: #e3e5e6;
+  --color-border: #c2c9cc;
+  --color-border-strong: #9ba3a8;
+  --color-muted: #595f61;
+
+  /* Intelligence — primary interactive/brand accent (blue) */
+  --color-accent: #1d4ed8;
+  --color-accent-2: #1e3a8a;
+
+  /* Energy — primary CTA accent (yellow) */
+  --color-cta: #f7f02c;
+  --color-cta-2: #cec823;
+
+  /* Status/affirmative accent (green) */
+  --color-success: #597f43;
+  --color-success-2: #3e5a2e;
+
+  /* Warm neutral, used sparingly for decorative accents */
+  --color-taupe: #988d81;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ink: var(--color-ink);
+  --color-surface: var(--color-surface);
+  --color-surface-2: var(--color-surface-2);
+  --color-surface-3: var(--color-surface-3);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-accent: var(--color-accent);
+  --color-accent-2: var(--color-accent-2);
+  --color-cta: var(--color-cta);
+  --color-cta-2: var(--color-cta-2);
+  --color-success: var(--color-success);
+  --color-success-2: var(--color-success-2);
+  --color-taupe: var(--color-taupe);
+  --color-muted: var(--color-muted);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--background);
+}
