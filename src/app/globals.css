@@ -1,31 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --background: #edeff0;
-  --foreground: #191b1c;
+  --background: #ffffff;
+  --foreground: #000000;
 
-  --color-ink: #191b1c;
+  --color-ink: #000000;
   --color-surface: #ffffff;
-  --color-surface-2: #edeff0;
-  --color-surface-3: #e3e5e6;
-  --color-border: #c2c9cc;
-  --color-border-strong: #9ba3a8;
-  --color-muted: #595f61;
+  --color-surface-2: #eef5f0;
+  --color-surface-3: #dfece4;
+  --color-border: #cddcd1;
+  --color-border-strong: #8fa696;
+  --color-muted: #45524a;
 
-  /* Intelligence — primary interactive/brand accent (blue) */
-  --color-accent: #1d4ed8;
-  --color-accent-2: #1e3a8a;
+  /* Intelligence — primary interactive/link accent (dark green, high-contrast on white) */
+  --color-accent: #055118;
+  --color-accent-2: #033a10;
 
-  /* Energy — primary CTA accent (yellow) */
-  --color-cta: #f7f02c;
-  --color-cta-2: #cec823;
+  /* Energy — primary CTA accent (bright green) */
+  --color-cta: #03fc41;
+  --color-cta-2: #02c934;
 
-  /* Status/affirmative accent (green) */
-  --color-success: #597f43;
-  --color-success-2: #3e5a2e;
+  /* Status/affirmative accent (dark green) */
+  --color-success: #055118;
+  --color-success-2: #0a7a24;
 
-  /* Warm neutral, used sparingly for decorative accents */
-  --color-taupe: #988d81;
+  /* Neutral, used sparingly for decorative accents */
+  --color-taupe: #a9b6ad;
 }
 
 @theme inline {

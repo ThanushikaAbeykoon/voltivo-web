@@ -16,9 +16,9 @@ export default async function OpengraphImage() {
           justifyContent: "center",
           alignItems: "flex-start",
           padding: "80px",
-          background: "#edeff0",
+          background: "#ffffff",
           backgroundImage:
-            "radial-gradient(circle at 85% 20%, rgba(29,78,216,0.14), transparent 55%)",
+            "radial-gradient(circle at 85% 20%, rgba(5,81,24,0.14), transparent 55%)",
         }}
       >
         <div
@@ -35,11 +35,11 @@ export default async function OpengraphImage() {
               height: 52,
               borderRadius: 12,
               background: "#ffffff",
-              border: "1px solid #c2c9cc",
+              border: "1px solid #cddcd1",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              color: "#cec823",
+              color: "#03fc41",
               fontSize: 30,
               fontWeight: 700,
             }}
@@ -47,14 +47,14 @@ export default async function OpengraphImage() {
             V
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ fontSize: 26, color: "#191b1c", fontWeight: 600 }}>
+            <span style={{ fontSize: 26, color: "#000000", fontWeight: 600 }}>
               Voltivo
             </span>
             <span
               style={{
                 fontSize: 12,
                 letterSpacing: 4,
-                color: "#595f61",
+                color: "#45524a",
               }}
             >
               TECHNOLOGIES
@@ -67,7 +67,7 @@ export default async function OpengraphImage() {
             display: "flex",
             fontSize: 64,
             fontWeight: 700,
-            color: "#191b1c",
+            color: "#000000",
             lineHeight: 1.1,
             maxWidth: 900,
           }}
@@ -79,7 +79,7 @@ export default async function OpengraphImage() {
           style={{
             display: "flex",
             fontSize: 24,
-            color: "#595f61",
+            color: "#45524a",
             marginTop: 24,
             maxWidth: 780,
           }}
